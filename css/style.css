@@ -1,3 +1,6 @@
+/* Template Name: Mr. Tranparent Portfolio
+Made by: Arifur Rahman */
+
 
 body{
     background-color: rgb(217, 224, 224);
@@ -77,6 +80,11 @@ h1{
     height: 450px;
     
 }
+#last{
+    padding-right: 8px;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
 .last{
     width: 25%;
     border-radius: 12px;
@@ -121,8 +129,9 @@ h1{
     margin: auto;
     padding: 80px 60px;
     border-radius: 30px;
-    background: url('img/img3.png') no-repeat scroll center center /cover;
     overflow: hidden;
+    background: url('img/img3.png') no-repeat scroll center center /cover;
+    /* overflow: hidden; */
 }
 
 .chat .text h2{
@@ -141,10 +150,10 @@ h1{
 
 /* work inquiry section end */
 
-/* footer start here */
+ /* footer start here */
 footer{
     text-align: center;
-    padding-top: 45px;
+     padding-top: 45px;
 }
 footer h3{
     text-transform: uppercase;
@@ -153,3 +162,7 @@ footer h3{
     width: 60px;
     height: 60px;
 }
+#contact{
+    padding-top: 18px;
+}
+/* footer  end */

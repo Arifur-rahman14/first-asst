@@ -1,0 +1,155 @@
+
+body{
+    background-color: rgb(217, 224, 224);
+}
+
+/* fonts selector */
+.teko{
+    color: darkolivegreen;
+    font-family: 'Teko', sans-serif;
+}
+.mont{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* navbar start here */
+.item{
+    padding: 15px;
+    text-align: right;
+}
+ul{
+    text-transform: uppercase;
+   list-style-type: none;
+}
+    
+li {
+    display: inline;
+}
+.item ul li a{
+    text-decoration: none;
+    color: rgb(8, 94, 94);
+    margin-right: 10px;
+}
+/* navbar end */
+.first_half{
+    width: 40%;
+    float: left;
+    margin-left: 45px;
+}
+.second_half{
+    width: 40%;
+    float: right;
+}
+.img1{
+    width: 80%;
+    margin-top: 40px;
+}
+h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+#half{
+    float: left;
+    margin-left: 40px;
+}
+/* button design start */
+.btn{
+    margin-top: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(78, 117, 247);
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    padding: 6px;
+    color: rgb(7, 2, 17);
+    font-weight: 800;
+    font-size: 30px;
+    background-color: darkcyan;
+}
+/* button end here */
+
+.third_section{
+    background-color: whitesmoke;
+    margin-top: 800px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    height: 450px;
+    
+}
+.last{
+    width: 25%;
+    border-radius: 12px;
+    padding: 20px;
+    float: left;
+    box-shadow: 0 10px 18px rosybrown;
+}
+.last img{
+    width: 100%;
+}
+.last_middle{
+    margin-left: 80px;
+    display: inline-block;
+    width: 25%;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 18px rosybrown;
+}
+.last_middle img{
+    width: 100%;
+}
+.lastla{
+    width: 25%;
+    float: right;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 18px rosybrown;
+}
+.lastla img{
+    width: 100%;
+}
+/* work experience section end here */
+
+/* work inquiry section start here */
+.in_section{
+    padding-top: 180px;
+}
+
+.chat{
+    width: 70%;
+    height: 20px;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    background: url('/img/img3.png') no-repeat scroll center center /cover;
+    overflow: hidden;
+}
+
+.chat .text h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.inquiry_btn {
+    float: right;
+}
+
+/* work inquiry section end */
+
+/* footer start here */
+footer{
+    text-align: center;
+    padding-top: 45px;
+}
+footer h3{
+    text-transform: uppercase;
+}
+.social_profile_link ul li a img{
+    width: 60px;
+    height: 60px;
+}

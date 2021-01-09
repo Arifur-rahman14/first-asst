@@ -121,7 +121,7 @@ h1{
     margin: auto;
     padding: 80px 60px;
     border-radius: 30px;
-    background: url('/img/img3.png') no-repeat scroll center center /cover;
+    background: url('img/img3.png') no-repeat scroll center center /cover;
     overflow: hidden;
 }
 
